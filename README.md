@@ -26,6 +26,7 @@
 - New Vertical Pane \
 - New Horizontal Pane -
 - Toggle Panes - o
+- Navigate Panes - (VIM arrow keys) HJKL
 - Cycle Pane Locations - Ctrl-o
 - Zoom Pane - z
 

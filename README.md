@@ -1,5 +1,12 @@
 ## tmux-config
 
+## Hierarchy
+ Server<br>
+ &nbsp;&nbsp;ㄴSession<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㄴWindow<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㄴPane
+
+
 ## Prefix Key
  CTRL-a
 

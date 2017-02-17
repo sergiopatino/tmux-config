@@ -1,3 +1,39 @@
 [submodule "plugins/maglev"]
 	path = plugins/maglev
 	url = https://github.com/sergiopatino/maglev
+[submodule "plugins/tmux-battery"]
+	path = plugins/tmux-battery
+	url = https://github.com/sergiopatino/tmux-battery
+[submodule "plugins/tmux-continuum"]
+	path = plugins/tmux-continuum
+	url = https://github.com/sergiopatino/tmux-continuum
+[submodule "plugins/tmux-copycat"]
+	path = plugins/tmux-copycat
+	url = https://github.com/sergiopatino/tmux-copycat
+[submodule "plugins/tmux-cpu"]
+	path = plugins/tmux-cpu
+	url = https://github.com/sergiopatino/tmux-cpu
+[submodule "plugins/tmux-open"]
+	path = plugins/tmux-open
+	url = https://github.com/sergiopatino/tmux-open
+[submodule "plugins/tmux-pain-control"]
+	path = plugins/tmux-pain-control
+	url = https://github.com/sergiopatino/tmux-pain-control
+[submodule "plugins/tmux-prefix-highlight"]
+	path = plugins/tmux-prefix-highlight
+	url = https://github.com/sergiopatino/tmux-prefix-highlight
+[submodule "plugins/tmux-resurrect"]
+	path = plugins/tmux-resurrect
+	url = https://github.com/sergiopatino/tmux-resurrect
+[submodule "plugins/tmux-sensible"]
+	path = plugins/tmux-sensible
+	url = https://github.com/sergiopatino/tmux-sensible
+[submodule "plugins/tmux-sessionist"]
+	path = plugins/tmux-sessionist
+	url = https://github.com/sergiopatino/tmux-sessionist
+[submodule "plugins/tmux-urlview"]
+	path = plugins/tmux-urlview
+	url = https://github.com/sergiopatino/tmux-urlview
+[submodule "plugins/tmux-yank"]
+	path = plugins/tmux-yank
+	url = https://github.com/sergiopatino/tmux-yank

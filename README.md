@@ -1,7 +1,7 @@
 ## tmux-config
 
 ## Prefix Key
- CTRL
+ CTRL-a
 
 ## Sessions
 - List Sessions - s
@@ -26,7 +26,7 @@
 - New Vertical Pane \
 - New Horizontal Pane -
 - Toggle Panes - o
-- Navigate Panes - (VIM arrow keys) HJKL
+- Navigate Panes - Hold down CTRL and use VIM arrow keys (HJKL).
 - Cycle Pane Locations - Ctrl-o
 - Zoom Pane - z
 

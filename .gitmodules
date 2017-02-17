@@ -1,0 +1,3 @@
+[submodule "plugins/maglev"]
+	path = plugins/maglev
+	url = https://github.com/sergiopatino/maglev

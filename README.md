@@ -1,5 +1,3 @@
-## tmux-config
-
 ## Hierarchy
  Server<br>
  &nbsp;&nbsp;ㄴSession<br>
@@ -11,34 +9,33 @@
  CTRL-a
 
 ## Sessions
-- List Sessions - s
-- Switch to last Session - S
-- Attach Session w/ name completion - g
-- Create Session - C
-- Detach Session - d
-- Rename Sessions - $
-- Current pane as new Session - @
+- List Sessions: s
+- Switch to last Session: S
+- Attach Session w/ name completion: g
+- Create Session: C
+- Detach Session: d
+- Rename Sessions: $
+- Current pane as new Session: @
 
 ## Windows
-- List Windows - w
-- Create Window - c
-- Rename Window - ,
-- Next Window - n
-- Previous Window - p
-- Windows 0 - 9
-- Swap Windows - < >
+- List Windows: w
+- Create Window: c
+- Rename Window: ,
+- Next Window: [
+- Previous Window: ]
+- Windows: 0 - 9
+- Swap Windows: < >
 
 ## Panes
-- Show Panes #'s - q
-- New Vertical Pane \
-- New Horizontal Pane -
-- Toggle Panes - o
-- Navigate Panes - Hold down CTRL and use VIM arrow keys (HJKL).
-- Cycle Pane Locations - Ctrl-o
-- Zoom Pane - z
+- Show Panes #'s: q
+- New Vertical Pane: \
+- New Horizontal Pane: -
+- Toggle Panes: o
+- Navigate Panes: Hold down CTRL and use VIM arrow keys (HJKL).
+- Cycle Pane Locations: CTRL-o
+- Zoom Pane: z
 
 ## Misc
-- Reload tmux source - R
-- Resurrect save - Ctrl+s
-- Resurrect restore - Ctrl+r
-
+- Reload tmux source: R
+- Resurrect save: CTRL-s
+- Resurrect restore: CTRL-r

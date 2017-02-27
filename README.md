@@ -23,6 +23,7 @@
 - Rename Window: ,
 - Next Window: [
 - Previous Window: ]
+- Last Window: a
 - Windows: 0 - 9
 - Swap Windows: < >
 

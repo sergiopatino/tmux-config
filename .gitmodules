@@ -40,6 +40,3 @@
 [submodule "plugins/vim-tmux-navigator/"]
 	path = plugins/vim-tmux-navigator/
 	url = https://github.com/sergiopatino/vim-tmux-navigator
-[submodule "plugins/vim-tmux-focus-events"]
-	path = plugins/vim-tmux-focus-events
-	url = https://github.com/sergiopatino/vim-tmux-focus-events.git

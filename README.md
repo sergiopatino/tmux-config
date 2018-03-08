@@ -16,7 +16,7 @@
 - Detach Session: d
 - Rename Sessions: $
 - Current pane as new Session: @
-- Join marked pane to current session/window: t + <secondary-key>
+- Join marked pane to current session/window: t + secondary-key
     * Secondary-keys:
       1. h, -, ": join horizontally
       1. v, |, %: join vertically

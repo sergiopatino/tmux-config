@@ -17,10 +17,10 @@
 - Rename Sessions: $
 - Current pane as new Session: @
 - Join marked pane to current session/window: t + <secondary-key><br>
-&nbsp;&nbsp;Secondary-keys:
-&nbsp;&nbsp;&nbsp;&nbsp;h, -, ": join horizontally
-&nbsp;&nbsp;&nbsp;&nbsp;v, |, %: join vertically
-&nbsp;&nbsp;&nbsp;&nbsp;f, @: join full screen
+&nbsp;&nbsp;Secondary-keys:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;h, -, ": join horizontally<br>
+&nbsp;&nbsp;&nbsp;&nbsp;v, |, %: join vertically<br>
+&nbsp;&nbsp;&nbsp;&nbsp;f, @: join full screen<br>
 
 ## Windows
 - List Windows: w

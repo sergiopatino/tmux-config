@@ -16,6 +16,11 @@
 - Detach Session: d
 - Rename Sessions: $
 - Current pane as new Session: @
+- Join marked pane to current session/window: t + <secondary-key>
+    Secondary-keys:
+      h, -, ": join horizontally
+      v, |, %: join vertically
+      f, @: join full screen
 
 ## Windows
 - List Windows: w
@@ -25,7 +30,7 @@
 - Previous Window: ]
 - Last Window: a
 - Windows: 0 - 9
-- Swap Windows: < >
+- Swap Windows: < or >
 
 ## Panes
 - Show Panes #'s: q
@@ -35,8 +40,24 @@
 - Navigate Panes: Hold down CTRL and use VIM arrow keys (HJKL).
 - Cycle Pane Locations: CTRL-o
 - Zoom Pane: z
+- Mark Pane: m
 
 ## Misc
 - Reload tmux source: R
 - Resurrect save: CTRL-s
 - Resurrect restore: CTRL-r
+
+## Plugins
+- Urlview - open URLs: u
+- Resurrect - Save session: Ctrl-s
+- Resurrect - Restore session: Ctrl-r
+- Copycat - Regex search: /
+- Copycat - Simple file search: Ctrl-f
+- Copycat - Jumping over git status files: Ctrl-g
+- Copycat - Jumping over SHA-1 hashes: Ctrl-h
+- Copycat - Url search: Ctrl-u
+- Copycat - Number search: Ctrl-d
+- Copycat - Ip address search: Ctrl-i
+- Open - Selection with default program: o
+- Open - Selection with the $EDITOR: Ctrl-o
+- Open - Search selection in search engine: Shift-s

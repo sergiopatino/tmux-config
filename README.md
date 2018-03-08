@@ -16,11 +16,11 @@
 - Detach Session: d
 - Rename Sessions: $
 - Current pane as new Session: @
-- Join marked pane to current session/window: t + <secondary-key>
-    Secondary-keys:
-      h, -, ": join horizontally
-      v, |, %: join vertically
-      f, @: join full screen
+- Join marked pane to current session/window: t + <secondary-key><br>
+&nbsp;&nbsp;Secondary-keys:
+&nbsp;&nbsp;&nbsp;&nbsp;h, -, ": join horizontally
+&nbsp;&nbsp;&nbsp;&nbsp;v, |, %: join vertically
+&nbsp;&nbsp;&nbsp;&nbsp;f, @: join full screen
 
 ## Windows
 - List Windows: w

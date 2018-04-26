@@ -31,6 +31,7 @@
 - Last Window: a
 - Windows: 0 - 9
 - Swap Windows: < or >
+- Renumber Windows: Ctrl-n
 
 ## Panes
 - Show Panes #'s: q

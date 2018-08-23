@@ -26,11 +26,11 @@
 - List Windows: w
 - Create Window: c
 - Rename Window: ,
-- Next Window: [
-- Previous Window: ]
+- Next Window: l
+- Previous Window: h
 - Last Window: a
 - Windows: 0 - 9
-- Swap Windows: < or >
+- Swap Windows: [ or ]
 - Renumber Windows: Ctrl-n
 
 ## Panes

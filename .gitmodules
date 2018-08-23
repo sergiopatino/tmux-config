@@ -34,9 +34,6 @@
 [submodule "plugins/tmux-urlview"]
 	path = plugins/tmux-urlview
 	url = https://github.com/sergiopatino/tmux-urlview
-[submodule "plugins/tmux-yank"]
-	path = plugins/tmux-yank
-	url = https://github.com/sergiopatino/tmux-yank
 [submodule "plugins/vim-tmux-navigator/"]
 	path = plugins/vim-tmux-navigator/
 	url = https://github.com/sergiopatino/vim-tmux-navigator

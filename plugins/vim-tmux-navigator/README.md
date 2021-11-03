@@ -1,7 +1,7 @@
 Vim Tmux Navigator
 ==================
 
-This plugin is a repackaging of [Mislav Marohnić's][] tmux-navigator
+This plugin is a repackaging of [Mislav Marohnić's](https://mislav.net/) tmux-navigator
 configuration described in [this gist][]. When combined with a set of tmux
 key bindings, the plugin will allow you to navigate seamlessly between
 vim and tmux splits using a consistent set of hotkeys.
@@ -46,6 +46,13 @@ Then run
 ```
 :PluginInstall
 ```
+
+If you are using Vim 8+, you don't need any plugin manager. Simply clone this repository inside `~/.vim/pack/plugin/start/` directory and restart Vim.
+
+```
+git clone git@github.com:christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator
+```
+
 
 ### tmux
 
@@ -155,6 +162,21 @@ To disable navigation when zoomed, add the following to your ~/.vimrc:
 " Disable tmux navigator when zooming the Vim pane
 let g:tmux_navigator_disable_when_zoomed = 1
 ```
+
+##### Preserve Zoom
+
+As noted above, navigating from a Vim pane to another tmux pane normally causes
+the window to be unzoomed. Some users may prefer the behavior of tmux's `-Z`
+option to `select-pane`, which keeps the window zoomed if it was zoomed. To
+enable this behavior, set the `g:tmux_navigator_preserve_zoom` option to `1`:
+
+```vim
+" If the tmux window is zoomed, keep it zoomed when moving from Vim to another pane
+let g:tmux_navigator_preserve_zoom = 1
+```
+
+Naturally, if `g:tmux_navigator_disable_when_zoomed` is enabled, this option
+will have no effect.
 
 #### Tmux
 
@@ -275,7 +297,6 @@ not happening as expected, you can try using [Mislav's original external
 script][] which has a more robust check.
 
 [Brian Hogan]: https://twitter.com/bphogan
-[Mislav Marohnić's]: http://mislav.uniqpath.com/
 [Mislav's original external script]: https://github.com/mislav/dotfiles/blob/master/bin/tmux-vim-select-pane
 [Vundle]: https://github.com/gmarik/vundle
 [TPM]: https://github.com/tmux-plugins/tpm

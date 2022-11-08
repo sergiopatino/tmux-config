@@ -30,7 +30,7 @@
 - Previous Window: h
 - Last Window: a
 - Windows: 0 - 9
-- Swap Windows: [ or ]
+- Swap Windows: < or >
 - Renumber Windows: Ctrl-n
 
 ## Panes

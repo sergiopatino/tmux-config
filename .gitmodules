@@ -40,3 +40,6 @@
 [submodule "plugins/vim-tmux-navigator"]
 	path = plugins/vim-tmux-navigator
 	url = https://github.com/sergiopatino/vim-tmux-navigator.git
+[submodule "plugins/tmux-yank"]
+	path = plugins/tmux-yank
+	url = https://github.com/sergiopatino/tmux-yank.git

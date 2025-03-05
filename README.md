@@ -1,3 +1,11 @@
+# TMUX Config
+
+Repository includes submodules. When cloning make sure to
+```
+git submodule init
+git submodule update
+```
+
 ## Hierarchy
  Server<br>
  &nbsp;&nbsp;ㄴSession<br>

@@ -31,3 +31,6 @@
 [submodule "plugins/tmux-yank"]
 	path = plugins/tmux-yank
 	url = https://github.com/sergiopatino/tmux-yank.git
+[submodule "plugins/tmux-power-zoom"]
+	path = plugins/tmux-power-zoom
+	url = https://github.com/sergiopatino/tmux-power-zoom

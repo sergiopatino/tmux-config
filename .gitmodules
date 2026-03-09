@@ -34,3 +34,6 @@
 [submodule "plugins/tmux-power-zoom"]
 	path = plugins/tmux-power-zoom
 	url = https://github.com/sergiopatino/tmux-power-zoom
+[submodule "plugins/tmux-column-zoom"]
+	path = plugins/tmux-column-zoom
+	url = https://github.com/sergiopatino/tmux-column-zoom.git
